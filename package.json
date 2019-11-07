@@ -1,14 +1,21 @@
 {
   "name": "eslint-config-zalopay",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ZaloPay CPS",
+  "author": "ZaloPay React",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">= 4"
+    "eslint": ">=4",
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "*",
+    "eslint-config-prettier": "*",
+    "prettier": "*"
   }
 }
